@@ -1,0 +1,121 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "94167f0f-cf0b-4ccd-9a44-c4dc526aef81": {
+      "type": "collage",
+      "blocks": {
+        "template--15352156586191__94167f0f-cf0b-4ccd-9a44-c4dc526aef81-1681388611c209fd9b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/843f8e18-679b-49aa-9971-8759537b0801_44b037a2-6b54-4d27-a3fb-b8dc52769334.jpg"
+          }
+        },
+        "template--15352156586191__94167f0f-cf0b-4ccd-9a44-c4dc526aef81-1681388611c209fd9b-1": {
+          "type": "product",
+          "settings": {
+            "product": "13-macbook-pro-case-lightweight-clear-and-hard-case-for-macbook-pro-13-inch-models",
+            "second_image": false
+          }
+        },
+        "template--15352156586191__94167f0f-cf0b-4ccd-9a44-c4dc526aef81-1681388611c209fd9b-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "men"
+          }
+        }
+      },
+      "block_order": [
+        "template--15352156586191__94167f0f-cf0b-4ccd-9a44-c4dc526aef81-1681388611c209fd9b-0",
+        "template--15352156586191__94167f0f-cf0b-4ccd-9a44-c4dc526aef81-1681388611c209fd9b-1",
+        "template--15352156586191__94167f0f-cf0b-4ccd-9a44-c4dc526aef81-1681388611c209fd9b-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "94167f0f-cf0b-4ccd-9a44-c4dc526aef81"
+  ]
+}
